@@ -16,6 +16,15 @@ import plotly.express as px
 
 
 
+
+
+
+
+
+
+
+
+
 st.write('''<br><br><br><center><font color = "#0000ff" size = 7>Daftar Artikel Mengenai Confirmatory Factor Analysis (CFA) dengan Software LISREL, AMOS, JASP, JAMOVI, SMARTPLS & SPSS</font></center>
 
 
