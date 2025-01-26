@@ -14,22 +14,56 @@ import plotly.express as px
 
 
 
+st.write('''<style>
+         a:hover {
+         background-color: yellow;
+         text-decoration: none;
+         }
+         </style>''', unsafe_allow_html=True)
 
 
 
 
 
-
-
-
-
-
-
-st.write('''<br><br><br><center><font color = "#0000ff" size = 7>Daftar Artikel Mengenai Confirmatory Factor Analysis (CFA) dengan Software LISREL, AMOS, JASP, JAMOVI, SMARTPLS & SPSS</font></center>
+st.write('''<br><br><br><center><font color = "#0000ff" size = 7>Daftar Artikel (Jurnal/Prosiding) Mengenai Confirmatory Factor Analysis (CFA) dengan Software LISREL, AMOS, JASP, JAMOVI, SMARTPLS & SPSS<br><font color = 'red'>5 Artikel Jurnal/Prosiding</font></font></center>
 
 
 
              ''', unsafe_allow_html = True)
+
+
+
+col1, col2, col3, col4, col5 = st.columns([3,3,3,3,3])
+
+with col1:
+    st.write("") 
+
+with col2:
+    st.write("") 
+
+with col3:
+    st.image("ugi3.jpg", width = 300)
+
+with col4:
+    st.write("")
+
+with col5:
+    st.write("")
+
+
+
+
+st.markdown(
+    """<center><a href="https://galeri-web-app-python-2025.streamlit.app/" target = "_blank">Galeri Aplikasi Python-Streamlit</a> | <a href="https://statkomat.com/download_tulisan.php" target = "_blank">STATKOMAT</a> | <a href="https://www.youtube.com/@STATKOMAT" target = "_blank">Youtube</a> | <a href="https://share-your-shiny-app.id/" target = "_blank">Shiny</a></center><br>""",
+    unsafe_allow_html=True)
+
+
+
+
+
+
+
+
 
 
 
